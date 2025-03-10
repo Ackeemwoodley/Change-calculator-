@@ -3,11 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
+  <h1>Change Calculator</h1>
   <body>
-    <!-- Write your markup here -->
-
-    <!-- Don't forget to add your <script> tag here -->
+    <h2> Amount due for sale:</h2>
+    <input type="text" id="amount-due" placeholder="Amount Due">
+    <h2>Amount received:</h2>
+    <input type="text" id="amount-received" placeholder="Amount Received">
+    <div></div>
+    <button id="calculate-change">Calculate Change</button> 
+    <p id="output"></p> 
+    <h3>Dollars: <span id="dollars-output">0</span></h3> 
+    <div></div>
+    <h4>Quarters: <span id="quarters-output">0</span></h3>  
+    <h4>Dimes: <span id="dimes-output">0</span></h3> 
+    <h4>Nickels: <span id="nickels-output">0</span></h3>  
+    <h4>Pennies: <span id="pennies-output">0</span></h3>
+  
+    <script src="main.js"></script>
 
   </body>
+ 
+  
 </html>
